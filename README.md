@@ -12,7 +12,7 @@ You can give this a try.
 ### Table of Contents
 - [Installation and usage](#installation-and-usage)
 - [Python 2 environment](#python-2-environment)
-- [Install packages from requirements.txt](#install-packages-from-requirements.txt)
+- [Install packages from requirements.txt](#install-packages-from-requirementstxt)
 - [For pyenv users](#for-pyenv-users)
 
 
