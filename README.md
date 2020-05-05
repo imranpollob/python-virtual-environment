@@ -6,6 +6,18 @@
 
 Often we need to works with different versions of python packages as well as python version in different project. Virtual environment comes to this point to help us seperating each project with isolated version of python and python packages. We will use `virtualenv` to create virtual environments.
 
+
+You can give this a try.
+
+# Table of Contents
+- [Installation and usage](#installation-and-usage)
+- [Python 2 environment](#python-2-environment)
+- [Install packages from requirements.txt](#install-packages-from-requirements.txt)
+- [For pyenv users](#for-pyenv-users)
+
+
+# Installation and usage
+
 ```bash
 # install virtualenv globally
 pip install virtualenv
@@ -62,7 +74,8 @@ pip list
 rm -rf project_env
 ```
 
-## python 2 environment
+
+## Python 2 environment
 
 ```bash
 # create a virtual environment with different version of python
@@ -78,7 +91,9 @@ python --version
 
 ```
 
-## install packages from requirements.txt
+
+## Install packages from requirements.txt
+
 ```bash
 # install packages
 pip install -r requirements.txt
@@ -90,10 +105,11 @@ pip list
 > *Don't create project files inside virtual environment folder. For example, here don't create anything inside project_env folder*
 
 
-## for pyenv users
+## For pyenv users
+
 If you use `pyenv` for managing different pyhton versions then the above process is slightly different.
 
-First install (pyenv-virtualenv)[https://github.com/pyenv/pyenv-virtualenv]
+First install [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
 
 ```bash
 # create virtual environment for current global python version
