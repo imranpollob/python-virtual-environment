@@ -1,4 +1,4 @@
-# python virtual environment management
+# Python virtual environment management
 
 > virtual environment means a seperated environment from your main global environment
 
@@ -9,14 +9,14 @@ Often we need to works with different versions of python packages as well as pyt
 
 You can give this a try.
 
-# Table of Contents
+### Table of Contents
 - [Installation and usage](#installation-and-usage)
 - [Python 2 environment](#python-2-environment)
 - [Install packages from requirements.txt](#install-packages-from-requirements.txt)
 - [For pyenv users](#for-pyenv-users)
 
 
-# Installation and usage
+## Installation and usage
 
 ```bash
 # install virtualenv globally
