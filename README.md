@@ -116,7 +116,7 @@ First install [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
 pyenv virtualenv project_env
 
 # create virtual environment for different python version
-pyenv virtualenv 2.7 project_env_v2
+pyenv virtualenv 2.7.17 project_env_v2
 # unlike raw virtualenv, pyenv virtualenv doesn't create a folder on project directory
 
 
